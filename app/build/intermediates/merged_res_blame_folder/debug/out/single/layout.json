@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\LENOVO\\Desktop\\AndroidStudioProjects\\Yoyo Interview\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\LENOVO\\Desktop\\AndroidStudioProjects\\Yoyo Interview\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\Desktop\\AndroidStudioProjects\\Yoyo Interview\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_milky_way.xml",
+        "source": "C:\\Users\\LENOVO\\Desktop\\AndroidStudioProjects\\Yoyo Interview\\app\\src\\main\\res\\layout\\fragment_milky_way.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\Desktop\\AndroidStudioProjects\\Yoyo Interview\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\milkyway_item.xml",
+        "source": "C:\\Users\\LENOVO\\Desktop\\AndroidStudioProjects\\Yoyo Interview\\app\\src\\main\\res\\layout\\milkyway_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\Desktop\\AndroidStudioProjects\\Yoyo Interview\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_milky_way_details.xml",
+        "source": "C:\\Users\\LENOVO\\Desktop\\AndroidStudioProjects\\Yoyo Interview\\app\\src\\main\\res\\layout\\fragment_milky_way_details.xml"
+    }
+]

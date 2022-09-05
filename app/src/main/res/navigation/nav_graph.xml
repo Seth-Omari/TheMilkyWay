@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/milkyWayFragment">
+
+    <fragment
+        android:id="@+id/milkyWayFragment"
+        android:name="com.seth.themilkywayandroidtask.ui.fragment.MilkyWayFragment"
+        android:label="The Milky Way"
+        tool:layout="@layout/fragment_milky_way">
+
+        <action
+            android:id="@+id/to_milkyWayDetailsFragment"
+            app:destination="@id/milkyWayDetailsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/milkyWayDetailsFragment"
+        android:name="com.seth.themilkywayandroidtask.ui.fragment.MilkyWayDetailsFragment"
+        android:label="Details"
+        tool:layout="@layout/fragment_milky_way_details">
+
+        <argument
+            android:name="milky_way_image"
+            app:argType="com.seth.themilkywayandroidtask.model.MilkyWayImage"
+            app:nullable="false" />
+    </fragment>
+
+</navigation>

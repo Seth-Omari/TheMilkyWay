@@ -1,0 +1,2 @@
+com/seth/themilkywayandroidtask/test/BuildConfig.java
+ com.seth.themilkywayandroidtask.test.BuildConfig
